@@ -1,0 +1,26 @@
+<document>
+	<properties>
+		<title>memcached-client Changes</title>
+		<author email="TODO@pangora.com">TODO</author>
+	</properties>
+
+	<!-- Example
+		<release version="" date="" description="">
+		<action dev="vorname nachname aus POM" type="add|fix|remove|update" issue="">
+		Description ...
+		</action>
+		</release>
+	-->
+
+	<!-- ReleaseHowTo: http://wiki/display/kb/ReleaseHowTo -->
+
+	<body>
+
+		<release version="[B" date="TODO" description="TODO">
+			<action dev="vorname nachname aus POM" type="add|fix|remove|update" issue="">
+				Description ...
+			</action>
+		</release>
+
+	</body>
+</document>

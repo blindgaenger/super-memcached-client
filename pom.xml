@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+		<groupId>pangora</groupId>
+		<artifactId>master-pom</artifactId>
+		<version>1.1-SNAPSHOT</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>pangora</groupId>
+	<artifactId>memcached-client</artifactId>
+	<version>[B</version>
+	<name>FIXME: enter an human readable project name here</name>
+
+	<scm>
+		<connection>scm:svn:https://192.168.117.216/repository/pangora/memcached-client/trunk</connection>
+		<developerConnection>
+			scm:svn:https://192.168.117.216/repository/pangora/memcached-client/trunk
+		</developerConnection>
+		<url>https://192.168.117.216/repository/pangora/memcached-client/trunk</url>
+	</scm>
+
+	<developers>
+		<!-- Every person working on this project has to be mentioned here -->
+
+		<developer>
+			<id>robert.zimmermann</id>
+			<name>Robert Zimmermann</name>
+			<email>robert.zimmermann@pangora.com</email>
+			<organization>Pangora</organization>
+			<roles>
+				<!--<role>developer</role>-->
+				<role>quality management</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<dependencies></dependencies>
+</project>

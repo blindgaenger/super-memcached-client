@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FindBugsFilter [
+    <!ENTITY defaultExcludes SYSTEM "http://192.168.117.17:8080/hudson/job/findbugs-default-excludes/ws/findbugs-default-excludes/findbugs-default-excludes.ent">
+]>
+<!-- documentation: http://findbugs.sourceforge.net/manual/filter.html -->
+<FindBugsFilter>
+    <!-- exclude some bug-patterns (maybe only temporary) -->
+    &defaultExcludes;
+    <!-- END: exclude some bug-patterns (maybe only temporary) -->
+
+    <!-- Insert project specific excludes below -->
+    <!-- example -->
+    <!--
+    <Match>
+        PLEASE ADD an description as an comment here
+        <Class name="cooceo.core.resources.impl.DefaultDatabaseConnection" />
+        <Method name="getVersion" />
+        <Bug pattern="ODR_OPEN_DATABASE_RESOURCE" />
+    </Match>
+    -->
+</FindBugsFilter>
