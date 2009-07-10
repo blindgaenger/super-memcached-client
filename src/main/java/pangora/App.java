@@ -21,9 +21,11 @@ public class App {
    
          final String id = bean.id.toString();
          client.set(id, 0, bean);
+         System.out.println("set: " + bean.id);
    
          SomeBean copy = (SomeBean)client.get(id);
          assert bean.equals(copy);
+         System.out.println("got: " + copy.id);
 
       } finally {
          client.shutdown();

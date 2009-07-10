@@ -8,32 +8,47 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>pangora</groupId>
-	<artifactId>memcached-client</artifactId>
-	<version>[B</version>
-	<name>FIXME: enter an human readable project name here</name>
+	<artifactId>super-memcached-client</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>The best memcached-client ever</name>
 
 	<scm>
-		<connection>scm:svn:https://192.168.117.216/repository/pangora/memcached-client/trunk</connection>
-		<developerConnection>
-			scm:svn:https://192.168.117.216/repository/pangora/memcached-client/trunk
-		</developerConnection>
-		<url>https://192.168.117.216/repository/pangora/memcached-client/trunk</url>
+		<connection>scm:git:https://blindgaenger/super-memcached-client.git</connection>
+		<developerConnection>scm:git:https://blindgaenger/super-memcached-client.git</developerConnection>
+		<url>https://github.com/blindgaenger/super-memcached-client</url>
 	</scm>
 
 	<developers>
-		<!-- Every person working on this project has to be mentioned here -->
-
 		<developer>
-			<id>robert.zimmermann</id>
-			<name>Robert Zimmermann</name>
-			<email>robert.zimmermann@pangora.com</email>
+			<id>benedikt.waldvogel@pangora.com</id>
+			<name>Benedikt Waldvogel</name>
+			<email>benedikt.waldvogel</email>
 			<organization>Pangora</organization>
 			<roles>
-				<!--<role>developer</role>-->
-				<role>quality management</role>
+				<role>developer</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>bernd.juenger@pangora.com</id>
+			<name>Bernd Jünger</name>
+			<email>bernd.juenger</email>
+			<organization>Pangora</organization>
+			<roles>
+				<role>developer</role>
 			</roles>
 		</developer>
 	</developers>
 
-	<dependencies></dependencies>
+	<dependencies>
+		<dependency>
+			<groupId>spy</groupId>
+			<artifactId>memcached</artifactId>
+			<version>2.3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>plain-dump</groupId>
+			<artifactId>plain-dump</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 </project>
