@@ -45,6 +45,25 @@
 			<artifactId>memcached</artifactId>
 			<version>2.3.1</version>
 		</dependency>
+
+		<!-- maven repo is at: http://thimbleware.com/maven/com/thimbleware/ -->
+		<dependency>
+			<groupId>com.thimbleware.jmemcached</groupId>
+			<artifactId>jmemcached-core</artifactId>
+			<version>0.8</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.5.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-jdk14</artifactId>
+			<version>1.5.6</version>
+		</dependency>
+
 		<dependency>
 			<groupId>plain-dump</groupId>
 			<artifactId>plain-dump</artifactId>
