@@ -1,7 +1,7 @@
 <document>
 	<properties>
-		<title>memcached-client Changes</title>
-		<author email="TODO@pangora.com">TODO</author>
+		<title>super-memcached-client Changes</title>
+		<author email="TODO@foobar.com">TODO</author>
 	</properties>
 
 	<!-- Example
@@ -16,7 +16,7 @@
 
 	<body>
 
-		<release version="[B" date="TODO" description="TODO">
+		<release version="0.1" date="TODO" description="TODO">
 			<action dev="vorname nachname aus POM" type="add|fix|remove|update" issue="">
 				Description ...
 			</action>

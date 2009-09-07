@@ -1,4 +1,4 @@
-package pangora;
+package foobar;
 
 import static org.junit.Assert.assertTrue;
 

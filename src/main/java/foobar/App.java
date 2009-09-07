@@ -1,4 +1,4 @@
-package pangora;
+package foobar;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
